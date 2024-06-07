@@ -31,7 +31,7 @@ PMKEYBOARD = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                'Add me to a group 🎊', url='http://t.me/MedusaMousikibot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
+                'Add me to a group 🎊', url='http://t.me/KycTepki_bot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
         ]
     ]
 )
@@ -48,7 +48,7 @@ ABOUTTEXT = (
     " venomous snakes in place of hair. Those who gazed into her eyes would"
     " turn to stone.\nThe word '**Mousiki**' is the Greek word for"
     " '**Music**'.__\n**Version** : 2.3.1\n**Special Credits:**\n\t•Credit of"
-    " lyrics: __genius.com__\n\nProject by Bibee"
+    " lyrics: __genius.com__\n\nProject by kıyıcı boss"
 )
 
 
@@ -76,7 +76,7 @@ async def start_cmd(_, msg: Message):
                         InlineKeyboardButton(
                             text='Start me in PM :)',
                             # Replace the `MedusaMousikibot` with your bot username
-                            url=f't.me/MedusaMousikibot?start=help'
+                            url=f't.me/KycTepki_bot?start=help'
                         )
                     ]
                 ]
