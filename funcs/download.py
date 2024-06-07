@@ -27,18 +27,17 @@ class Descargar:
 
         return yt
 
-#        try:
-#            dl = yt.streams.filter(
-#                only_audio=True
-#            ).first()
+        try:
+          dl = yt.streams.filter(
+              only_audio=True
+             ).first()
             
-#            dl.download(
-#                output_path=self.path,
-#                filename=f'{yt.title.replace("/","|")}-{yt.video_id}.mp3'
-#            )
+           dl.download(
+              output_path=self.path,
+              filename=f'{yt.title.replace("/","|")}-{yt.video_id}.mp3'
+           )
             
         
-#        except Exception as E:
-#            return 0
-        
-#        return yt
+       except Exception as E:
+           return 0
+          return yt
